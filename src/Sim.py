@@ -18,8 +18,6 @@ sideways = Force.Force("Sideways", 0.01, 0)
 globalForces.append(gravity)
 globalForces.append(sideways)
 
-
-
 def createLife(shape="circle", color="red", width=1):
   obj = turtle.Turtle()
   obj.color("red")
